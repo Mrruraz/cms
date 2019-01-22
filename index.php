@@ -174,6 +174,7 @@ body {
              if($row[1] == $Username && $row[2]== $Password){
                if($Status == 1){
                header("Location:Homepage.php");
+                 echo"Username  and password is correct";
              }else{
                header("Location:agent_order_cargo.php");
              }
