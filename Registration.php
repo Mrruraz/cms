@@ -133,10 +133,11 @@ body {
 
 <?php
 
-$host = 'localhost';
-$username = 'root';
-$password = '';
+$host = 'rubiraj.mysql.database.azure.com';
+$username = 'rubiraj@rubiraj';
+$password = '@Raz_Ruvi';
 $db_name = 'dacc';
+
 
 //Establishes the connection
 $conn = mysqli_init();
