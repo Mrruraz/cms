@@ -139,10 +139,11 @@ body {
         <button type="submit" name="submit">login</button>
           <p><?php
 
-          $host = 'localhost';
-          $username = 'root';
-          $password = '';
-          $db_name = 'dacc';
+            $host = 'rubiraj.mysql.database.azure.com';
+            $username = 'rubiraj@rubiraj';
+            $password = '@Raz_Ruvi';
+            $db_name = 'dacc';
+
 
           //Establishes the connection
           $conn = mysqli_init();
