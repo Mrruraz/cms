@@ -174,10 +174,11 @@ body {
              if($row[1] == $Username && $row[2]== $Password){
                if($Status == 1){
                 //header("Location:Homepage.php");
-                 echo "<script>location.href = 'Homepage.php'</script>";
+                 echo "<script>setTimeout(\"location.href = 'Homepage.php';\",500);</script>";
 //                 echo"Username  and password is correct";
              }else{
-               header("Location:agent_order_cargo.php");
+               //header("Location:agent_order_cargo.php");
+                 echo "<script>setTimeout(\"location.href = 'yoga.php';\",1500);</script>";
              }
              }else{
            		echo"Please insert the correct username";
