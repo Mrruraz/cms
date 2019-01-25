@@ -175,7 +175,7 @@ body {
                if($Status == 1){
                  echo "<script>location.href = 'Homepage.php';</script>";
              }else{
-                 echo "location.href = 'agent_order_cargo.php';</script>";
+                 echo "<script>location.href = 'agent_order_cargo.php';</script>";
              }
              }else{
            		echo"Please insert the correct username";
